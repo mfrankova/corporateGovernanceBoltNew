@@ -6,30 +6,26 @@ name: Release
 on:
   push:
     branches: [ "main" ]
+  workflow_run:
 
 jobs:
-  build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
 
- # Deploy job
-  deploy:
-    # Add a dependency to the build job
-    needs: build
-
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: "https://mfrankova.github.io/corporateGovernanceBoltNew"
-
-    # Specify runner + deployment step
-    runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run predeploy
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+        run: npm run deploy
