@@ -8,7 +8,7 @@ const SolutionOverview = () => {
       <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
         <div className="flex items-center space-x-2 mb-6">
           <Target className="w-6 h-6 text-blue-600" />
-          <h3 className="text-xl font-semibold text-blue-800">Hlavní cíl řešení .</h3>
+          <h3 className="text-xl font-semibold text-blue-800">Hlavní cíl řešení</h3>
         </div>
         <p className="text-blue-700 text-lg leading-relaxed">
           Cílem je zavést elektronické hlasování a schvalování správní radou i valnou hromadou, rozšířit proces schvalování smluv o kroky rady a sjednotit vše do jednoho přehledného digitálního prostředí.

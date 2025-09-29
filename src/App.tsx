@@ -11,7 +11,7 @@ import { processes } from './data/processes';
 import { Settings } from 'lucide-react';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('processes');
+  const [activeTab, setActiveTab] = useState('goals');
   const [activeProcess, setActiveProcess] = useState('electronic-voting');
 
   const currentProcess = processes.find(p => p.id === activeProcess);
