@@ -388,7 +388,7 @@ export const TechnicalSpecs: React.FC = () => {
           <p className="text-sm text-gray-700 font-medium">
             <strong>Závěr:</strong> Chceme-li právně obhajitelné hlasování s auditní stopou a spolehlivými výpočty, 
             volíme Dataverse jako datové jádro. Díky chytrému licencování a SharePointu pro soubory držíme náklady nízko 
-            a zároveň budujeme podnikové řešení bez zbytečného technického dluhu.
+            a zároveň budujeme podnikové řešení bez technického dluhu.
           </p>
         </div>
       </div>
