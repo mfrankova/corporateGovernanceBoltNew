@@ -22,7 +22,6 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
       icon: FileText,
       color: 'green'
     }
-   
   ];
 
   const getColorClasses = (color: string, isActive: boolean) => {
@@ -42,7 +41,7 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
 
   return (
     <div className="mb-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {processes.map((process) => {
           const Icon = process.icon;
           const isActive = activeProcess === process.id;
