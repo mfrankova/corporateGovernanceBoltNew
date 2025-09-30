@@ -55,7 +55,7 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
             >
               <div className="flex items-start space-x-3">
                 <Icon className="w-8 h-8 mt-1 flex-shrink-0" />
-              <div>
+              <div className="flex-1">
                 <h3 className="font-semibold text-base leading-tight mb-3">
                   {process.title}
                 </h3>
