@@ -51,15 +51,15 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
             <button
               key={process.id}
               onClick={() => onProcessChange(process.id)}
-              className={`p-8 rounded-xl border-2 transition-all duration-200 text-left w-full min-h-[200px] ${getColorClasses(process.color, isActive)}`}
+            className={`p-4 rounded-xl border-2 transition-all duration-200 text-left w-full ${getColorClasses(process.color, isActive)}`}
             >
-            <div className="flex items-center space-x-3">
-                <Icon className="w-8 h-8 mt-1 flex-shrink-0" />
-              <div>
-                <h3 className="font-semibold text-base leading-tight mb-3">
+            <div className="flex items-start space-x-3">
+                <Icon className="w-6 h-6 mt-1 flex-shrink-0" />
+              <div className="flex-1">
+                <h3 className="font-semibold text-sm leading-tight mb-1">
                   {process.title}
                 </h3>
-                <p className="text-sm opacity-75">
+                <p className="text-xs opacity-75">
                   {process.description}
                 </p>
               </div>
