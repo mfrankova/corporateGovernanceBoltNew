@@ -156,7 +156,8 @@ export const TechnicalSpecs: React.FC = () => {
         </div>
       </div>
 
-  {/* Volba platformy - pod kontejnery SR a VH */}
+  {/* Volba platformy - pod kontejnery SR a VH - SKRYTO PRO UŽIVATELE */}
+  {false && (
       <div className="bg-white rounded-xl shadow-lg p-6">
         <div className="flex items-center space-x-2 mb-6">
           <Server className="w-6 h-6 text-blue-600" />
@@ -392,6 +393,7 @@ export const TechnicalSpecs: React.FC = () => {
           </p>
         </div>
       </div>
+  )}
     </>
   )
 }
