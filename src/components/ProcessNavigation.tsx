@@ -68,6 +68,10 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
           );
         })}
       </div>
+          )
+    }
+    )
+    }
     </div>
   );
 };
