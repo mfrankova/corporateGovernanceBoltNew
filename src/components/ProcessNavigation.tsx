@@ -42,8 +42,7 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
 
   return (
     <div className="mb-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {processes.map((process) => {
           const Icon = process.icon;
           const isActive = activeProcess === process.id;
@@ -52,15 +51,15 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
             <button
               key={process.id}
               onClick={() => onProcessChange(process.id)}
-              className={`p-6 rounded-xl border-2 transition-all duration-200 text-left w-full ${getColorClasses(process.color, isActive)}`}
+              className={`p-8 rounded-xl border-2 transition-all duration-200 text-left w-full min-h-[200px] ${getColorClasses(process.color, isActive)}`}
             >
               <div className="flex items-start space-x-3">
-                <Icon className="w-6 h-6 mt-1 flex-shrink-0" />
+                <Icon className="w-8 h-8 mt-1 flex-shrink-0" />
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-semibold text-base leading-tight mb-3">
+                  <h3 className="font-semibold text-lg leading-tight mb-4">
                     {process.title}
                   </h3>
-                  <p className="text-sm opacity-75 leading-relaxed">
+                  <p className="text-base opacity-75 leading-relaxed">
                     {process.description}
                   </p>
                 </div>
@@ -68,7 +67,6 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
             </button>
           );
         })}
-      </div>
       </div>
     </div>
   );
