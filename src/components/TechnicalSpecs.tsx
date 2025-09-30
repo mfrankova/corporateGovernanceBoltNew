@@ -403,5 +403,6 @@ export const TechnicalSpecs: React.FC = () => {
         </p>
       </div>
     </div>
-  )
-}
+    </div>
+  );
+};
