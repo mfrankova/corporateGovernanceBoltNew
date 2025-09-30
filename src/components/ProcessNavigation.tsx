@@ -21,14 +21,8 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
       description: 'Proces schvalování smluv s TreeInfo integrací',
       icon: FileText,
       color: 'green'
-    },
-    {
-      id: 'universal-approval',
-      title: 'Schvalování jakékoliv agendy správní radou',
-      description: 'Univerzální proces pro všechny typy agend',
-      icon: Settings,
-      color: 'purple'
     }
+   
   ];
 
   const getColorClasses = (color: string, isActive: boolean) => {
