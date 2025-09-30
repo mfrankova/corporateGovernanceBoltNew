@@ -394,14 +394,16 @@ export const TechnicalSpecs: React.FC = () => {
       </div>
       )}
 
-      <div className="mt-6 bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-lg p-4">
-        {/* Finální závěr */}
-        <p className="text-sm text-gray-700 font-medium">
-          <strong>Závěr:</strong> Chceme-li právně obhajitelné hlasování s auditní stopou a spolehlivými výpočty, 
-          volíme Dataverse jako datové jádro. Díky chytrému licencování a SharePointu pro soubory držíme náklady nízko 
-          a zároveň budujeme podnikové řešení bez technického dluhu.
-        </p>
-      </div>
+      <>
+        <div className="mt-6 bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-lg p-4">
+          {/* Finální závěr */}
+          <p className="text-sm text-gray-700 font-medium">
+            <strong>Závěr:</strong> Chceme-li právně obhajitelné hlasování s auditní stopou a spolehlivými výpočty, 
+            volíme Dataverse jako datové jádro. Díky chytrému licencování a SharePointu pro soubory držíme náklady nízko 
+            a zároveň budujeme podnikové řešení bez technického dluhu.
+          </p>
+        </div>
+      </>
     </div>
     </div>
   );
