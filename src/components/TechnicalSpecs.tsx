@@ -403,8 +403,7 @@ export const TechnicalSpecs: React.FC = () => {
             a zároveň budujeme podnikové řešení bez technického dluhu.
           </p>
         </div>
-      </>
-    </div>
+      </div>
     </div>
   );
 };
