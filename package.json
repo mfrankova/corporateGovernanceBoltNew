@@ -10,11 +10,14 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://x-access-token:$GH_TOKEN@github.com/mfrankova/corporateGovernanceBoltNew.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
+    "gh": "^2.8.9",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.344.0",
+    "pages": "^0.0.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
