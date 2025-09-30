@@ -178,7 +178,7 @@ export const electronicVotingProcess: ProcessDiagram = {
 
 export const contractApprovalProcess: ProcessDiagram = {
   id: 'contract-approval',
-  name: 'Rozšíření TreeInfo o schvalování správní radou',
+  name: 'Rozšíření TreeInfo o nové funkce',
   description: 'Rozšíření TreeInfo systému o nové knihovny a procesy pro schvalování správní radou',
   steps: [
     {
