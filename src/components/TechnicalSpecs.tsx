@@ -155,5 +155,9 @@ export const TechnicalSpecs: React.FC = () => {
           </div>
         </div>
       </div>
+      </div>
+    </>
+  );
+};
 
   
