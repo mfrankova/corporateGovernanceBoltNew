@@ -17,7 +17,7 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
     },
     {
       id: 'contract-approval',
-      title: 'Rozšíření schvalování smluv o schvalování správní radou',
+      title: 'Rozšíření schvalování smluv o nové funkce',
       description: 'Proces schvalování smluv s TreeInfo integrací',
       icon: FileText,
       color: 'green'
