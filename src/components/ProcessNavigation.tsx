@@ -55,22 +55,19 @@ export const ProcessNavigation: React.FC<ProcessNavigationProps> = ({ activeProc
             >
               <div className="flex items-start space-x-3">
                 <Icon className="w-8 h-8 mt-1 flex-shrink-0" />
-              <Icon className="w-6 h-6 mt-1 flex-shrink-0" />
-                  <h3 className="font-semibold text-lg leading-tight mb-4">
+              <div>
                 <h3 className="font-semibold text-base leading-tight mb-3">
-                  </h3>
-                  <p className="text-base opacity-75 leading-relaxed">
+                  {process.title}
+                </h3>
                 <p className="text-sm opacity-75 leading-relaxed">
-                  </p>
-                </div>
+                  {process.description}
+                </p>
               </div>
+            </div>
             </button>
           );
         })}
       </div>
-          )
-    }
-    )
     }
     </div>
   );
