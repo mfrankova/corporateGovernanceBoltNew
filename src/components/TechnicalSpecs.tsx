@@ -3,7 +3,7 @@ import { Server, CheckCircle, XCircle, AlertTriangle, DollarSign, Shield, Clock 
 
 export const TechnicalSpecs: React.FC = () => {
   return (
-    <>
+    <div>
       <div className="space-y-6">
       {/* Správní rada a Valná hromada - stejná výška */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -403,6 +403,6 @@ export const TechnicalSpecs: React.FC = () => {
         </p>
       </div>
     </div>
-    </>
+    </div>
   )
 }
