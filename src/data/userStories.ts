@@ -10,7 +10,7 @@ export const openQuestions: OpenQuestion[] = [
   {
     id: 'voting-transparency',
     question: 'Chcete mít možnost vidět pouze potvrzení vašeho vlastního hlasu, nebo i to, zda a jak hlasovali ostatní členové?',
-    context: 'Cílem této otázky je stanovit požadovanou úroveň transparentnosti při hlasování správní rady. \n\n Je třeba rozhodnout, zda: \n\n  1. Bude zobrazováno pouze potvrzení vlastního hlasu člena, nebo  2. Budou dostupné i informace o účasti a konkrétním způsobu hlasování ostatních členů, a tím i plná transparentnost celého procesu.',
+    context: 'Cílem této otázky je stanovit požadovanou úroveň transparentnosti při hlasování správní rady. \n\n Je třeba rozhodnout, zda: \n\n  1. Bude zobrazováno pouze potvrzení vlastního hlasu člena, nebo \n 2. Budou dostupné i informace o účasti a konkrétním způsobu hlasování ostatních členů, a tím i plná transparentnost celého procesu.',
     priority: 'kritické'
   },
   {
