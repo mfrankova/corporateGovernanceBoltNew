@@ -44,7 +44,7 @@ export const OpenQuestionsPanel: React.FC = () => {
               
               <div className="flex-1">
                 <h4 className="font-semibold mb-2">{question.question}</h4>
-                <p className="text-sm opacity-90 leading-relaxed">{question.context}</p>
+                <div className="text-sm opacity-90 leading-relaxed whitespace-pre-line">{question.context}</div>
                 
                 <div className="mt-2">
                   <span className="inline-block px-2 py-1 bg-white bg-opacity-50 rounded text-xs font-medium uppercase tracking-wide">
