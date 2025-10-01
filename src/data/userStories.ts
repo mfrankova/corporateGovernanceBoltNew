@@ -4,7 +4,7 @@ export const openQuestions: OpenQuestion[] = [
   {
     id: 'agenda-approval-process',
     question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
-    context: 'e třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda: Bude vždy využíván plný proces hlasování všech členů správní rady, nebo Se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.,
+    context: 'Je třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda: Bude vždy využíván plný proces hlasování všech členů správní rady, nebo Se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.',
     priority: 'kritické'
   },
   {
