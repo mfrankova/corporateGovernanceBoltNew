@@ -4,19 +4,19 @@ export const openQuestions: OpenQuestion[] = [
   {
     id: 'agenda-approval-process',
     question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
-    context: 'Je třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy.\n\n Cílem je rozhodnout, zda:\n\n 1. Bude vždy využíván plný proces hlasování všech členů správní rady, nebo\n2. Se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.',
+    context: 'Je třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy.\n\n Cílem je rozhodnout, zda:\n\n 1. Bude vždy využíván plný proces hlasování všech členů správní rady, nebo \n 2. Se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.',
     priority: 'kritické'
   },
   {
     id: 'voting-transparency',
     question: 'Chcete mít možnost vidět pouze potvrzení vašeho vlastního hlasu, nebo i to, zda a jak hlasovali ostatní členové?',
-    context: 'Cílem této otázky je stanovit požadovanou úroveň transparentnosti při hlasování správní rady. \n\n Je třeba rozhodnout, zda: \n\n  1. Bude zobrazováno pouze potvrzení vlastního hlasu člena, nebo 2. Budou dostupné i informace o účasti a konkrétním způsobu hlasování ostatních členů, a tím i plná transparentnost celého procesu.',
+    context: 'Cílem této otázky je stanovit požadovanou úroveň transparentnosti při hlasování správní rady. \n\n Je třeba rozhodnout, zda: \n\n  1. Bude zobrazováno pouze potvrzení vlastního hlasu člena, nebo \n 2. Budou dostupné i informace o účasti a konkrétním způsobu hlasování ostatních členů, a tím i plná transparentnost celého procesu.',
     priority: 'kritické'
   },
   {
     id: 'pre-approver-role',
     question: 'Jakým způsobem a kým bude při rozšíření schvalovacího procesu smluv určeno obsazení role Předschvalovatele 2?',
-    context: 'Tato otázka se zaměřuje na určení kompetencí a odpovědnosti při obsazení role Předschvalovatele 2 v rámci nově rozšířeného schvalovacího procesu smluv. Cílem je vyjasnit, kdo rozhoduje o obsazení této funkce a podle jakých pravidel.',
+    context: 'Tato otázka se zaměřuje na určení kompetencí a odpovědnosti při obsazení role Předschvalovatele 2 v rámci nově rozšířeného schvalovacího procesu smluv. \n Je třeba vyjasnit: \n\n 1. Kdo rozhoduje o obsazení této funkce? \n 2. Podle jakých pravidel či kritérií má být tato role přidělena?',
     priority: 'kritické'
   },
   {
