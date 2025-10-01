@@ -7,7 +7,7 @@ export const OpenQuestionsPanel: React.FC = () => {
     switch (priority) {
       case 'critical': return 'text-red-700 bg-red-50 border-red-300';
       case 'important': return 'text-orange-700 bg-orange-50 border-orange-300';
-      case 'clarification': return 'text-blue-700 bg-blue-50 border-blue-300';
+      case 'upřesnění': return 'text-blue-700 bg-blue-50 border-blue-300';
       default: return 'text-gray-700 bg-gray-50 border-gray-300';
     }
   };
@@ -16,7 +16,7 @@ export const OpenQuestionsPanel: React.FC = () => {
     switch (priority) {
       case 'critical': return <AlertTriangle className="w-5 h-5" />;
       case 'important': return <HelpCircle className="w-5 h-5" />;
-      case 'clarification': return <Info className="w-5 h-5" />;
+      case 'upřesnění': return <Info className="w-5 h-5" />;
       default: return <HelpCircle className="w-5 h-5" />;
     }
   };
