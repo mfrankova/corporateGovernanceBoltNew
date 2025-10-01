@@ -5,8 +5,8 @@ import { HelpCircle, AlertTriangle, Info } from 'lucide-react';
 export const OpenQuestionsPanel: React.FC = () => {
   const getPriorityColor = (priority: string) => {
     switch (priority) {
-      case 'critical': return 'text-red-700 bg-red-50 border-red-300';
-      case 'important': return 'text-orange-700 bg-orange-50 border-orange-300';
+      case 'kritické': return 'text-red-700 bg-red-50 border-red-300';
+      case 'důležité': return 'text-orange-700 bg-orange-50 border-orange-300';
       case 'upřesnění': return 'text-blue-700 bg-blue-50 border-blue-300';
       default: return 'text-gray-700 bg-gray-50 border-gray-300';
     }
@@ -14,8 +14,8 @@ export const OpenQuestionsPanel: React.FC = () => {
 
   const getPriorityIcon = (priority: string) => {
     switch (priority) {
-      case 'critical': return <AlertTriangle className="w-5 h-5" />;
-      case 'important': return <HelpCircle className="w-5 h-5" />;
+      case 'kritické': return <AlertTriangle className="w-5 h-5" />;
+      case 'důležité': return <HelpCircle className="w-5 h-5" />;
       case 'upřesnění': return <Info className="w-5 h-5" />;
       default: return <HelpCircle className="w-5 h-5" />;
     }
@@ -60,7 +60,7 @@ export const OpenQuestionsPanel: React.FC = () => {
       <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
         <p className="text-sm text-amber-800">
           <strong>Poznámka:</strong> Tyto otázky je potřeba vyřešit před finální implementací systému. 
-          Kritické otázky blokují vývoj, důležité ovlivňují funkcionalitu, clarifikace pomohou s optimalizací.
+          Kritické otázky blokují vývoj, důležité ovlivňují funkcionalitu, upřesnění pomohou s optimalizací.
         </p>
       </div>
     </div>

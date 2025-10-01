@@ -26,7 +26,7 @@ export interface OpenQuestion {
   id: string;
   question: string;
   context: string;
-  priority: 'critical' | 'important' | 'upřesnění';
+  priority: 'kritické' | 'důležité' | 'upřesnění';
 }
 
 export const roleColors = {

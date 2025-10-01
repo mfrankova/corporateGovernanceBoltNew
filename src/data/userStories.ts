@@ -5,37 +5,37 @@ export const openQuestions: OpenQuestion[] = [
     id: 'agenda-approval-process',
     question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
     context: 'Otázka se týká nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda má být využíván plný proces hlasování všech členů, nebo zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, s ohledem na úsporu času a nákladů.',
-    priority: 'critical'
+    priority: 'kritické'
   },
   {
     id: 'voting-transparency',
     question: 'Chcete mít možnost vidět pouze potvrzení vašeho vlastního hlasu, nebo i to, zda a jak hlasovali ostatní členové?',
     context: 'Cílem této otázky je určit úroveň transparentnosti hlasování v rámci boardu – zda má být zobrazováno pouze potvrzení vlastního hlasu, nebo také informace o účasti a konkrétním způsobu hlasování ostatních členů.',
-    priority: 'critical'
+    priority: 'kritické'
   },
   {
     id: 'pre-approver-role',
     question: 'Jakým způsobem a kým bude při rozšíření schvalovacího procesu smluv určeno obsazení role Předschvalovatele 2?',
     context: 'Tato otázka se zaměřuje na určení kompetencí a odpovědnosti při obsazení role Předschvalovatele 2 v rámci nově rozšířeného schvalovacího procesu smluv. Cílem je vyjasnit, kdo rozhoduje o obsazení této funkce a podle jakých pravidel.',
-    priority: 'critical'
+    priority: 'kritické'
   },
   {
     id: 'eta-slovakia-board',
     question: 'Existuje ještě správní rada společnosti ETA Slovakia. Je nutné řešit také správní radu této společnosti nebo půjde do zániku a není nutné řešit?',
     context: 'Potřebujeme objasnit, zda má ETA Slovakia vlastní správní radu a zda ji zahrnout do systému, nebo zda společnost půjde do likvidace.',
-    priority: 'critical'
+    priority: 'kritické'
   },
   {
     id: 'exception-voting',
     question: 'Občas nastávají mimořádné situace, kdy je povolena výjimka. Pro přijetí rozhodnutí postačuje 55 %, případně 87 % hlasů. Je nutno i tento typ hlasování řešit systémově?',
     context: 'Standardní kvórum je 70%, ale existují výjimky s 55% a 87%. Potřebujeme definovat, kdy se tyto výjimky aplikují a jak je systémově implementovat.',
-    priority: 'important'
+    priority: 'důležité'
   },
   {
     id: 'supervisory-board',
     question: 'Budeme řešit hlasování ohledně "dozorčí rady"? (M. Kupcová - předseda, K. Čejka - podpředseda, L. Kleinová - člen)',
     context: 'Je potřeba objasnit, zda dozorčí rada bude také používat systém elektronického hlasování a jaké jsou její specifické požadavky.',
-    priority: 'important'
+    priority: 'důležité'
   },
   {
     id: 'strategic-board',
