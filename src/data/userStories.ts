@@ -24,5 +24,23 @@ export const openQuestions: OpenQuestion[] = [
     question: 'Budeme řešit hlasování ohledně "strategického boardu"?',
     context: 'Je potřeba definovat, zda strategický board bude součástí systému a jaké má specifické požadavky na hlasování a schvalování.',
     priority: 'clarification'
+  },
+  {
+    id: 'agenda-approval-process',
+    question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
+    context: 'Otázka se týká nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda má být využíván plný proces hlasování všech členů, nebo zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, s ohledem na úsporu času a nákladů.',
+    priority: 'important'
+  },
+  {
+    id: 'voting-transparency',
+    question: 'Chcete mít možnost vidět pouze potvrzení vašeho vlastního hlasu, nebo i to, zda a jak hlasovali ostatní členové?',
+    context: 'Cílem této otázky je určit úroveň transparentnosti hlasování v rámci boardu – zda má být zobrazováno pouze potvrzení vlastního hlasu, nebo také informace o účasti a konkrétním způsobu hlasování ostatních členů.',
+    priority: 'important'
+  },
+  {
+    id: 'pre-approver-role',
+    question: 'Jakým způsobem a kým bude při rozšíření schvalovacího procesu smluv určeno obsazení role Předschvalovatele 2?',
+    context: 'Tato otázka se zaměřuje na určení kompetencí a odpovědnosti při obsazení role Předschvalovatele 2 v rámci nově rozšířeného schvalovacího procesu smluv. Cílem je vyjasnit, kdo rozhoduje o obsazení této funkce a podle jakých pravidel.',
+    priority: 'important'
   }
 ];
