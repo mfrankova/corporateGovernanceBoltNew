@@ -1,12 +1,7 @@
 import { OpenQuestion } from '../types';
 
 export const openQuestions: OpenQuestion[] = [
-  {
-    id: 'agenda-approval-process',
-    question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
-    context: 'Je třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda bude vždy využíván plný proces hlasování všech členů správní rady, nebo se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.',
-    priority: 'kritické'
-  },
+ 
   {
     id: 'voting-transparency',
     question: 'Chcete mít možnost vidět pouze potvrzení vašeho vlastního hlasu, nebo i to, zda a jak hlasovali ostatní členové?',
@@ -17,6 +12,12 @@ export const openQuestions: OpenQuestion[] = [
     id: 'pre-approver-role',
     question: 'Jakým způsobem a kým bude při rozšíření schvalovacího procesu smluv určeno obsazení role Předschvalovatele 2?',
     context: 'Tato otázka se zaměřuje na určení kompetencí a odpovědnosti při obsazení role Předschvalovatele 2 v rámci nově rozšířeného schvalovacího procesu smluv. Je třeba vyjasnit, kdo rozhoduje o obsazení této funkce a podle jakých pravidel či kritérií má být tato role přidělena.',
+    priority: 'kritické'
+  },
+   {
+    id: 'agenda-approval-process',
+    question: 'Jak má probíhat schvalování jakékoliv jiné agendy správní radou – preferujete kompletní proces s hlasováním všech členů, nebo postačí schválení předsedou a místopředsedou?',
+    context: 'Je třeba vyjasnit nastavení způsobu schvalování agendy správní radou mimo standardní procesy. Cílem je rozhodnout, zda bude vždy využíván plný proces hlasování všech členů správní rady, nebo se zvolí zjednodušený model, kdy postačí souhlas předsedy a místopředsedy, a to s ohledem na efektivitu, úsporu času a snížení administrativních nákladů.',
     priority: 'kritické'
   },
   {
