@@ -27,8 +27,8 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'decision',
       next: ['krok3-vyvolani', 'krok5-doplneni'],
       details: [
-        'Kontrola relevantnosti tématu pro hlasování správní radou',
-        'Kontrola kompletnosti všech potřebných informací',
+        '- Kontrola relevantnosti tématu pro hlasování správní radou',
+        '- Kontrola kompletnosti všech potřebných informací',
         'Možné akce tajemníka:',
         '• Vyžádat si doplnění údajů (proces se vrací k řešiteli).',
         '• Zamítnout celé téma jako irelevantní.',
