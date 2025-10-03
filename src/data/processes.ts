@@ -8,7 +8,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok1-tema',
       title: 'Téma pro hlasování SR',
-      description: 'Řešitel vytvoří téma pro hlasování zadáním názvu tématu, stručného popisu a přiložením potřebných podkladů.',
+      description: 'Řešitel vytvoří téma pro hlasování zadáním názvu tématu, stručného popisu a přiložením potřebných podkladů:',
       role: 'participant',
       type: 'task',
       next: ['krok2-autorizace'],
