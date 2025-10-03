@@ -586,7 +586,7 @@ Kapacita Dataverse (DB/File/Log): při několika hlasováních ročně a „niž
 **Priorita:** DŮLEŽITÁ
 
 ### 3. Dozorčí rada
-**Otázka:** Budeme řešit hlasování ohledně "dozorčí rady"? (M. Kupcová - předseda, K. Čejka - podpředseda, L. Kleinová - člen)
+**Otázka:** Budeme řešit hlasování ohledně "dozorčí rady"? (M. Kupcová - předseda, K. Čejka - místopředseda, L. Kleinová - člen)
 
 **Kontext:** Je potřeba objasnit, zda dozorčí rada bude také používat systém elektronického hlasování a jaké jsou její specifické požadavky.
 
