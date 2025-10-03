@@ -38,13 +38,13 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok3-vyvolani',
       title: 'Vyvolání hlasování SR',
-      description: 'Tajemník vyvolá příslušné hlasování SR s automatickým doplněním schvalovatelů podle společnosti.',
+      description: 'Tajemník vyvolá příslušné hlasování SR s automatickým doplněním hlasujících podle společnosti.',
       role: 'secretary',
       type: 'task',
       next: ['krok4-hlasovani'],
       details: [
         '• Rozlišení hlasování podle společnosti.',
-        '• Automatické doplnění potřebných schvalovatelů.',
+        '• Automatické doplnění potřebných hlasujících.',
         '• Nastavení parametrů hlasování.',
         '• Spuštění hlasovacího procesu.'
       ]
