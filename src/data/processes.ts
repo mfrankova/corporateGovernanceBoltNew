@@ -178,12 +178,12 @@ export const electronicVotingProcess: ProcessDiagram = {
 
 export const contractApprovalProcess: ProcessDiagram = {
   id: 'contract-approval',
-  name: 'Finanční předschválení',
-  description: 'Systém rozhodne podle výše Ročního nákladu, zda je nutné finanční předschválení.',
+  name: 'Rozšíření TreeInfo o nové funkce',
+  description: 'Rozšíření TreeInfo systému o nové knihovny a procesy pro schvalování správní radou',
   steps: [
     {
       id: 'step1-libraries',
-      title: 'Vytvoření nových dokumentových knihoven',
+      title: 'Finanční předschválení',
       description: 'Vzniknou nové dokumentové knihovny - Správní rada a Archiv správní rada',
       role: 'system',
       type: 'task',
