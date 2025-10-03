@@ -233,57 +233,6 @@ export const contractApprovalProcess: ProcessDiagram = {
         '• Tajemník na základě hlasování Správní rady rozhodně, zda byla smlouva schválena nebo zamítnuta.'
         
       ]
-    },
-    {
-      id: 'step5-content-types',
-      title: 'Nastavení typů obsahu',
-      description: 'Definice typů obsahu pro dokumenty správní rady',
-      role: 'system',
-      type: 'task',
-      next: ['step6-approval-process'],
-      details: [
-        'Typy obsahu:',
-        '• Návrh smlouvy',
-        '• Smlouva k podpisu',
-        '• Ostatní přílohy smlouvy',
-        'Nastavení metadat pro každý typ obsahu',
-        'Konfigurace workflow pro jednotlivé typy'
-      ]
-    },
-    {
-      id: 'step6-approval-process',
-      title: 'Proces schvalování a archivace',
-      description: 'Proces schvalování, připomínkování a podepisování bude stejný, archivace do nové knihovny',
-      role: 'system',
-      type: 'task',
-      next: ['step7-testing-documentation'],
-      details: [
-        'Stejný proces schvalování jako u ostatních spisů',
-        'Stejný proces připomínkování',
-        'Stejný proces podepisování',
-        'Archivace do nové knihovny "Archiv správní rada"',
-        'Export do ASD - stejná DB tabulka jako pro spisy',
-        'Prověření se Sefirou aktuálního stavu prostředí'
-      ]
-    },
-    {
-      id: 'step7-testing-documentation',
-      title: 'Testování a dokumentace',
-      description: 'Testování celého procesu OSP i OTA a vytvoření technické dokumentace',
-      role: 'system',
-      type: 'end_event',
-      next: [],
-      details: [
-        'Testování celého procesu OSP (Obelisk Signing Portal)',
-        'Testování celého procesu OTA (Obelisk Trusted Archive)',
-        'Funkční testování všech nových funkcionalit',
-        'Dokumentace pouze technického popisu integrací',
-        'Samotný proces není potřeba dokumentovat (je totožný)',
-        'Předpokládaná pracnost:',
-        '• Vývoj a testování: 60 MHs',
-        '• Dokumentace a režie: 15 MHs',
-        '• Celkem: 75 MHs'
-      ]
     }
   ]
 };
