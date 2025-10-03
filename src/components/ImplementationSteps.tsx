@@ -232,7 +232,7 @@ export const themes: Theme[] = [
   },
   {
     id: 'theme-2',
-    title: 'Rozšíření TreeInfo o schválení představenstvem',
+    title: 'Rozsireni schvalovani smluv o nove funkce',
     description: 'Integrace schvalovacího procesu do stávajícího TreeInfo systému',
     steps: [
       { 
