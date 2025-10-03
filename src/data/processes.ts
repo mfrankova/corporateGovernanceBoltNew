@@ -222,20 +222,16 @@ export const contractApprovalProcess: ProcessDiagram = {
     },
     {
       id: 'step4-form-fields',
-      title: 'Úprava polí formuláře',
-      description: 'Formulář bude totožný s aktuálním formulářem s následujícími změnami',
+      title: 'Schválení správní radou',
+      description: '',
       role: 'system',
       type: 'task',
       next: ['step5-content-types'],
       details: [
-        'Formulář totožný s aktuálním formulářem u ostatních spisů',
-        'Změny názvů polí:',
-        '• Číslo smlouvy → Číslo',
-        '• Předmět smlouvy → Předmět',
-        '• Kategorie smlouvy → Kategorie (výchozí "Správní rada")',
-        '• Instrukce pro právníka → Instrukce pro právníka/tajemníka',
-        '• Instrukce pro účtárnu → zrušit toto pole',
-        'Obsah polí zůstává beze změny včetně napojení na stejné číselníky'
+        '• Právník rozhodne, zda smlouva podléhá rozhodnutí správní radou.',
+        '• Pokud ano, tak systém vytvoří úkol pro Tajemníka správní rady.',
+        '• Tajemník na základě hlasování Správní rady rozhodně, zda byla smlouva schválena nebo zamítnuta.'
+        
       ]
     },
     {
