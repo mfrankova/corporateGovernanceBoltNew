@@ -196,16 +196,15 @@ export const contractApprovalProcess: ProcessDiagram = {
     },
     {
       id: 'step2-homepage',
-      title: 'Rozšíření vyhledávání na HomePage',
-      description: 'Vyhledávání na HomePage bude rozšířeno o záložku pro tento proces',
+      title: 'Předschválení záměru smlouvy',
+      description: '',
       role: 'system',
       type: 'task',
       next: ['step3-button-form'],
       details: [
-        'Přidání nové záložky pro proces schvalování správní radou',
-        'Rozšíření vyhledávacích funkcí o nové knihovny',
-        'Integrace vyhledávání s novými dokumentovými knihovnami',
-        'Testování funkcionality vyhledávání'
+        '• Systém automaticky obsadí roli předschvalovatele podle statutárů interních společností, které uzavírají smlouvu.',
+        '• Systém také v tomto kroku automaticky obsadí role povinný parafující (dle matice kategorie smlouvy x pracovní místo x interní společnost).',
+        '• Systém automaticky obsadí roli Archivář podle interní společnosti.'
       ]
     },
     {
