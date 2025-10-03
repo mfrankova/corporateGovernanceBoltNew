@@ -138,7 +138,7 @@ Systém pošle schválenou zápisnici do Obelisk Signing Portal na podepsání p
 - Odeslání schválené zápisnice do Obelisk Signing Portal
 - Podepsání předsednictvem správní rady:
   • D. Večeřa - předseda
-  • P. Zálesák - podpředseda
+  • P. Zálesák - místopředseda
 - Elektronický podpis s právní platností
 
 **Krok 11: Archivace**
