@@ -209,17 +209,15 @@ export const contractApprovalProcess: ProcessDiagram = {
     },
     {
       id: 'step3-button-form',
-      title: 'Nové tlačítko a formulář',
+      title: '',
       description: 'Oprávněný uživatel novým tlačítkem "Schválení správní radou" založí nový spis',
       role: 'participant',
       type: 'task',
       next: ['step4-form-fields'],
       details: [
-        'Přidání tlačítka "Schválení správní radou"',
-        'Oprávněný uživatel může založit nový spis',
-        'Formulář pro vyplnění dat nového spisu',
-        'Nastavení oprávnění pro přístup k funkcionalitě',
-        'Testování procesu vytváření nových spisů'
+        '• Systém nebo Vedoucí právní kanceláře rozhodne, zda je nutné finální předschválení Předschvalovatelem 2.',
+        '• Systém obsadí roli Předschvalovatel 2.',
+        '• Předschvalovatel 2 provede finální schválení či zamítnutí záměru smlouvy.'      
       ]
     },
     {
