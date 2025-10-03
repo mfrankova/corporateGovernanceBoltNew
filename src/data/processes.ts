@@ -22,7 +22,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok2-autorizace',
       title: 'Autorizace',
-      description: 'Tajemník SR bude notifikován o založení nové tématu pro hlasování SR a je vyžadována autorizace.',
+      description: 'Tajemník SR bude notifikován o založení nové tématu pro hlasování SR a je vyžadována autorizace:',
       role: 'secretary',
       type: 'decision',
       next: ['krok3-vyvolani', 'krok5-doplneni'],
