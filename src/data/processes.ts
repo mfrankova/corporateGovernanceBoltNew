@@ -184,16 +184,14 @@ export const contractApprovalProcess: ProcessDiagram = {
     {
       id: 'step1-libraries',
       title: 'Finanční předschválení',
-      description: 'Vzniknou nové dokumentové knihovny - Správní rada a Archiv správní rada',
+      description: '',
       role: 'system',
       type: 'task',
       next: ['step2-homepage'],
       details: [
-        'Vytvoření nové dokumentové knihovny "Správní rada"',
-        'Vytvoření nové dokumentové knihovny "Archiv správní rada"',
-        'Nastavení oprávnění pro přístup k novým knihovnám',
-        'Konfigurace metadat a sloupců podle požadavků',
-        'Propojení s existujícími číselníky'
+        'Systém rozhodne podle výše Ročního nákladu, zda je nutné finanční předschválení.',
+        'Pokud ano, Systém automaticky obsadí roli finanční předschvalovatel na základě limitů hodnoty Roční náklad."'
+       
       ]
     },
     {
