@@ -189,8 +189,8 @@ export const contractApprovalProcess: ProcessDiagram = {
       type: 'task',
       next: ['step2-homepage'],
       details: [
-        'Systém rozhodne podle výše Ročního nákladu, zda je nutné finanční předschválení.',
-        'Pokud ano, Systém automaticky obsadí roli finanční předschvalovatel na základě limitů hodnoty Roční náklad."'
+        '• Systém rozhodne podle výše Ročního nákladu, zda je nutné finanční předschválení.',
+        '• Pokud ano, Systém automaticky obsadí roli finanční předschvalovatel na základě limitů hodnoty Roční náklad."'
        
       ]
     },
