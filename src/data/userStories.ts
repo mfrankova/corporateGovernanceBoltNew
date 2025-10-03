@@ -33,7 +33,7 @@ export const openQuestions: OpenQuestion[] = [
   },
   {
     id: 'supervisory-board',
-    question: 'Budeme řešit hlasování ohledně "dozorčí rady"? (M. Kupcová - předseda, K. Čejka - podpředseda, L. Kleinová - člen)',
+    question: 'Budeme řešit hlasování ohledně "dozorčí rady"? (M. Kupcová - předseda, K. Čejka - místopředseda, L. Kleinová - člen)',
     context: 'Je potřeba objasnit, zda dozorčí rada bude také používat systém elektronického hlasování a jaké jsou její specifické požadavky.',
     priority: 'důležité'
   },
