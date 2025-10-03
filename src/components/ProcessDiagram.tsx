@@ -112,11 +112,11 @@ export const ProcessDiagram: React.FC<ProcessDiagramProps> = ({ process }) => {
                 <div className="space-y-3">
                   <h4 className="font-medium text-gray-800">Klíčové charakteristiky:</h4>
                   <ul className="list-disc list-inside text-gray-700 space-y-1">
-                    <li>Elektronické hlasování s váženými podíly členů</li>
-                    <li>Povinné schválení předsedou a místopředsedou</li>
-                    <li>Integrace s Obelisk pro elektronický podpis</li>
-                    <li>Kompletní auditní trail všech akcí</li>
-                    <li>Přístup k archivovaným dokumentům pro všechny členy</li>
+                    <li>Elektronické hlasování s váženými podíly členů.</li>
+                    <li>Povinné schválení předsedou a místopředsedou.</li>
+                    <li>Integrace s Obelisk pro elektronický podpis.</li>
+                    <li>Kompletní auditní trail všech akcí.</li>
+                    <li>Přístup k archivovaným dokumentům pro všechny členy.</li>
                   </ul>
                 </div>
               )}
