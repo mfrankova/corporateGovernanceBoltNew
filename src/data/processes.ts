@@ -59,8 +59,8 @@ export const electronicVotingProcess: ProcessDiagram = {
       details: [
         'Notifikace hlasovatelů o novém hlasování.',
         'Lhůta pro hlasování: 7 dní.',
-        'Notifikace 7. den: poslední možnost hlasování.',
-        'Notifikace tajemníka pro urgenci (telefonicky/osobně).',
+        '- Notifikace 7. den: poslední možnost hlasování.',
+        '- Notifikace tajemníka pro urgenci (telefonicky/osobně).',
         'Možnosti hlasování:',
         '• Souhlasím',
         '• Nesouhlasím', 
