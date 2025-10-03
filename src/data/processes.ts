@@ -155,7 +155,7 @@ export const electronicVotingProcess: ProcessDiagram = {
         'Odeslání schválené zápisnice do Obelisk Signing Portal',
         'Podepsání předsednictvem správní rady:',
         '• D. Večeřa - předseda',
-        '• P. Zálesák - podpředseda',
+        '• P. Zálesák - místopředseda',
         'Elektronický podpis s právní platností'
       ]
     },
