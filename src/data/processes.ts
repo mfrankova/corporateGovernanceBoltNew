@@ -209,8 +209,8 @@ export const contractApprovalProcess: ProcessDiagram = {
     },
     {
       id: 'step3-button-form',
-      title: '',
-      description: 'Oprávněný uživatel novým tlačítkem "Schválení správní radou" založí nový spis',
+      title: 'Obsazení role Předschvalovatel 2 a finální předschválení smlouvy',
+      description: '',
       role: 'participant',
       type: 'task',
       next: ['step4-form-fields'],
