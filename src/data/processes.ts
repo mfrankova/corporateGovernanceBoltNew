@@ -89,7 +89,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok6-vyhodnoceni',
       title: 'Vyhodnocení',
-      description: 'Systém automaticky vyhodnotí hlasování po odevzdání všech hlasů',
+      description: 'Systém automaticky vyhodnotí hlasování po odevzdání všech hlasů.',
       role: 'system',
       type: 'task',
       next: ['krok7-pdf'],
