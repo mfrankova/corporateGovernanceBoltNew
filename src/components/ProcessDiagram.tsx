@@ -125,11 +125,11 @@ export const ProcessDiagram: React.FC<ProcessDiagramProps> = ({ process }) => {
                 <div className="space-y-3">
                   <h4 className="font-medium text-gray-800">Klíčové charakteristiky:</h4>
                   <ul className="list-disc list-inside text-gray-700 space-y-1">
-                    <li>Rozšíření stávajícího workflow o krok schválení správní radou</li>
-                    <li>Integrace s TreeInfo systémem</li>
-                    <li>Automatické přiřazení schvalovatelů podle společnosti</li>
-                    <li>Propojení s Obelisk pro elektronický podpis smluv</li>
-                    <li>Archivace v dokumentových knihovnách</li>
+                    <li>Rozšíření stávajícího workflow o krok schválení správní radou.</li>
+                    <li>Doplnění nové role Předschvalovatel 2.</li>
+                    <li>Rozšíření matice pro automatické obsazení role povinný parafující o dimenzi Interní společnost.</li>
+                    <li>Umožnit víceúrovňové finanční předschválení dle nastavení limitů pro Roční náklad.</li>
+                    <li>Upgrade na SharePoint Modern Pages.</li>
                   </ul>
                 </div>
               )}
