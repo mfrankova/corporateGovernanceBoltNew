@@ -22,7 +22,7 @@ export const openQuestions: OpenQuestion[] = [
   },
   {
     id: 'eta-slovakia-board',
-    question: 'Existuje ještě správní rada společnosti ETA Slovakia. Je nutné řešit také správní radu této společnosti nebo půjde do zániku a není nutné řešit?',
+    question: 'Existuje ještě správní rada společnosti ETA Slovakia. Je nutné řešit také správní radu této společnosti nebo půjde do zániku a není nutné ji řešit?',
     context: 'Potřebujeme objasnit, zda má ETA Slovakia vlastní správní radu a zda ji zahrnout do systému, nebo zda společnost půjde do likvidace.',
     priority: 'kritické'
   },
