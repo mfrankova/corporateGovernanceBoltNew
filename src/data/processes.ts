@@ -8,7 +8,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok1-tema',
       title: 'Téma pro hlasování SR',
-      description: 'Řešitel vytvoří téma pro hlasování zadáním názvu tématu, stručného popisu a přiložením potřebných podkladů',
+      description: 'Řešitel vytvoří téma pro hlasování zadáním názvu tématu, stručného popisu a přiložením potřebných podkladů.',
       role: 'participant',
       type: 'task',
       next: ['krok2-autorizace'],
@@ -22,7 +22,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok2-autorizace',
       title: 'Autorizace',
-      description: 'Tajemník SR bude notifikován o založení nové tématu pro hlasování SR a je vyžadována autorizace',
+      description: 'Tajemník SR bude notifikován o založení nové tématu pro hlasování SR a je vyžadována autorizace.',
       role: 'secretary',
       type: 'decision',
       next: ['krok3-vyvolani', 'krok5-doplneni'],
@@ -38,7 +38,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok3-vyvolani',
       title: 'Vyvolání hlasování SR',
-      description: 'Tajemník vyvolá příslušné hlasování SR s automatickým doplněním schvalovatelů podle společnosti',
+      description: 'Tajemník vyvolá příslušné hlasování SR s automatickým doplněním schvalovatelů podle společnosti.',
       role: 'secretary',
       type: 'task',
       next: ['krok4-hlasovani'],
@@ -52,7 +52,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok4-hlasovani',
       title: 'Hlasování',
-      description: 'Hlasovatelé jsou notifikováni pro vykonání hlasování s 7denní lhůtou a 4 možnostmi hlasování',
+      description: 'Hlasovatelé jsou notifikováni pro vykonání hlasování s 7denní lhůtou a 4 možnostmi hlasování.',
       role: 'board_member',
       type: 'task',
       next: ['krok5-doplneni', 'krok6-vyhodnoceni'],
@@ -74,7 +74,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok5-doplneni',
       title: 'Doplnění',
-      description: 'Řešitel doplní požadované informace, hlasování se vynuluje a spustí znovu',
+      description: 'Řešitel doplní požadované informace, hlasování se vynuluje a spustí znovu.',
       role: 'participant',
       type: 'task',
       next: ['krok3-vyvolani'],
@@ -103,7 +103,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok7-pdf',
       title: 'Výsledek hlasování PDF',
-      description: 'Systém vytvoří PDF dokument s výsledky hlasování a notifikuje tajemníka',
+      description: 'Systém vytvoří PDF dokument s výsledky hlasování a notifikuje tajemníka.',
       role: 'system',
       type: 'task',
       next: ['krok8-zapisnice'],
@@ -119,7 +119,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok8-zapisnice',
       title: 'Tvorba zápisnice z průběhu zasedání SR',
-      description: 'Tajemník vytváří zápisnici a vkládá výsledky hlasování z období mezi zasedáními',
+      description: 'Tajemník vytváří zápisnici a vkládá výsledky hlasování z období mezi zasedáními.',
       role: 'secretary',
       type: 'task',
       next: ['krok9-schvaleni'],
@@ -133,7 +133,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok9-schvaleni',
       title: 'Schválení zápisnice',
-      description: 'Všichni členové správní rady schvalují znění zápisnice bez rozlišení vah hlasů',
+      description: 'Všichni členové správní rady schvalují znění zápisnice bez rozlišení vah hlasů.',
       role: 'board_member',
       type: 'task',
       next: ['krok10-podpis'],
@@ -147,7 +147,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok10-podpis',
       title: 'Podpis zápisnice SR',
-      description: 'Systém pošle schválenou zápisnici do Obelisk Signing Portal na podepsání předsednictvem',
+      description: 'Systém pošle schválenou zápisnici do Obelisk Signing Portal na podepsání předsednictvem.',
       role: 'system',
       type: 'task',
       next: ['krok11-archivace'],
@@ -162,7 +162,7 @@ export const electronicVotingProcess: ProcessDiagram = {
     {
       id: 'krok11-archivace',
       title: 'Archivace',
-      description: 'Po podepsání se zápisnice uloží do archivu Obelisk Trusted Archive',
+      description: 'Po podepsání se zápisnice uloží do archivu Obelisk Trusted Archive.',
       role: 'system',
       type: 'end_event',
       next: [],
