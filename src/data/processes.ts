@@ -13,10 +13,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok2-autorizace'],
       details: [
-        '• Zadání názvu tématu',
-        '• Stručný popis problematiky',
-        '• Přiložení potřebných podkladů',
-        '• Výběr příslušné správní rady'
+        '• Zadání názvu tématu.',
+        '• Stručný popis problematiky.',
+        '• Přiložení potřebných podkladů.',
+        '• Výběr příslušné správní rady.'
       ]
     },
     {
@@ -30,9 +30,9 @@ export const electronicVotingProcess: ProcessDiagram = {
         'Kontrola relevantnosti tématu pro hlasování správní radou',
         'Kontrola kompletnosti všech potřebných informací',
         'Možné akce tajemníka:',
-        '• Vyžádat si doplnění údajů (proces se vrací k řešiteli)',
-        '• Zamítnout celé téma jako irelevantní',
-        '• Potvrdit autorizaci tématu a vyvolat proces hlasování'
+        '• Vyžádat si doplnění údajů (proces se vrací k řešiteli).',
+        '• Zamítnout celé téma jako irelevantní.',
+        '• Potvrdit autorizaci tématu a vyvolat proces hlasování.'
       ]
     },
     {
@@ -43,10 +43,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok4-hlasovani'],
       details: [
-        '• Rozlišení hlasování podle společnosti',
-        '• Automatické doplnění potřebných schvalovatelů',
-        '• Nastavení parametrů hlasování',
-        '• Spuštění hlasovacího procesu'
+        '• Rozlišení hlasování podle společnosti.',
+        '• Automatické doplnění potřebných schvalovatelů.',
+        '• Nastavení parametrů hlasování.',
+        '• Spuštění hlasovacího procesu.'
       ]
     },
     {
@@ -57,18 +57,18 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok5-doplneni', 'krok6-vyhodnoceni'],
       details: [
-        'Notifikace hlasovatelů o novém hlasování',
-        'Lhůta pro hlasování: 7 dní',
-        'Notifikace 7. den: poslední možnost hlasování',
-        'Notifikace tajemníka pro urgenci (telefonicky/osobně)',
+        'Notifikace hlasovatelů o novém hlasování.',
+        'Lhůta pro hlasování: 7 dní.',
+        'Notifikace 7. den: poslední možnost hlasování.',
+        'Notifikace tajemníka pro urgenci (telefonicky/osobně).',
         'Možnosti hlasování:',
         '• Souhlasím',
         '• Nesouhlasím', 
         '• Zdržím se hlasování',
         '• Vrátit na doplnění',
         'Při volbě "Vrátit na doplnění":',
-        '• Notifikace řešiteli o požadavku na doplnění',
-        '• Informování ostatních hlasujících o požadavku'
+        '• Notifikace řešiteli o požadavku na doplnění.',
+        '• Informování ostatních hlasujících o požadavku.'
       ]
     },
     {
@@ -79,11 +79,11 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok3-vyvolani'],
       details: [
-        '• Notifikace řešiteli o žádosti o doplnění informací',
-        '• Povinnost řešitele doplnit potřebné informace',
-        '• Po doplnění se hlasování vynuluje',
-        '• Proces hlasování se spustí od znovu',
-        '• Všichni hlasovatelé musí hlasovat znovu (i ti, kteří již hlasovali)'
+        '• Notifikace řešiteli o žádosti o doplnění informací.',
+        '• Povinnost řešitele doplnit potřebné informace.',
+        '• Po doplnění se hlasování vynuluje.',
+        '• Proces hlasování se spustí od znovu.',
+        '• Všichni hlasovatelé musí hlasovat znovu (i ti, kteří již hlasovali).'
       ]
     },
     {
@@ -94,10 +94,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok7-pdf'],
       details: [
-        '• Automatické vyhodnocení po odevzdání všech hlasů',
-        '• Výpočet výsledků podle vah hlasů',
-        '• Kontrola kvóra (70%, výjimky 55%/87%)',
-        '• Určení výsledku: SCHVÁLENO/NESCHVÁLENO'
+        '• Automatické vyhodnocení po odevzdání všech hlasů.',
+        '• Výpočet výsledků podle vah hlasů.',
+        '• Kontrola kvóra (70%, výjimky 55%/87%).',
+        '• Určení výsledku: SCHVÁLENO/NESCHVÁLENO.'
       ]
     },
     {
@@ -109,11 +109,11 @@ export const electronicVotingProcess: ProcessDiagram = {
       next: ['krok8-zapisnice'],
       details: [
         'Vytvoření PDF dokumentu s obsahem:',
-        '• Název tématu',
-        '• Popis tématu',
-        '• Výsledek hlasování jednotlivých hlasovatelů (procenta i počty bodů)',
-        '• Zesumarizovaný výsledek s vyhodnocením SCHVÁLENO/NESCHVÁLENO',
-        'Notifikace tajemníka o výsledku hlasování'
+        '• Název tématu.',
+        '• Popis tématu.',
+        '• Výsledek hlasování jednotlivých hlasovatelů (procenta i počty bodů).',
+        '• Zesumarizovaný výsledek s vyhodnocením SCHVÁLENO/NESCHVÁLENO.',
+        'Notifikace tajemníka o výsledku hlasování.'
       ]
     },
     {
@@ -124,10 +124,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok9-schvaleni'],
       details: [
-        '• Vytvoření zápisnice z průběhu zasedání SR',
-        '• Vložení výsledků hlasování z období od poslední SR do aktuální SR',
-        '• Konkrétní výsledky jednotlivých témat',
-        '• Po vytvoření jde zápisnice na schválení všem členům správní rady'
+        '• Vytvoření zápisnice z průběhu zasedání SR.',
+        '• Vložení výsledků hlasování z období od poslední SR do aktuální SR.',
+        '• Konkrétní výsledky jednotlivých témat.',
+        '• Po vytvoření jde zápisnice na schválení všem členům správní rady.'
       ]
     },
     {
@@ -138,10 +138,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok10-podpis'],
       details: [
-        '• Schválení znění zápisnice všemi členy správní rady',
-        '• Nerozlišuje se váha jednotlivých hlasů',
-        '• Podmínkou je schválení všech členů SR',
-        '• Jednomyslné schválení zápisnice'
+        '• Schválení znění zápisnice všemi členy správní rady.',
+        '• Nerozlišuje se váha jednotlivých hlasů.',
+        '• Podmínkou je schválení všech členů SR.',
+        '• Jednomyslné schválení zápisnice.'
       ]
     },
     {
@@ -152,11 +152,11 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok11-archivace'],
       details: [
-        'Odeslání schválené zápisnice do Obelisk Signing Portal',
+        'Odeslání schválené zápisnice do Obelisk Signing Portal.',
         'Podepsání předsednictvem správní rady:',
         '• D. Večeřa - předseda',
         '• P. Zálesák - místopředseda',
-        'Elektronický podpis s právní platností'
+        'Elektronický podpis s právní platností.'
       ]
     },
     {
@@ -167,10 +167,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'end_event',
       next: [],
       details: [
-        '• Uložení podepsané zápisnice do Obelisk Trusted Archive',
-        '• Dlouhodobá archivace s právní platností',
-        '• Přístup k archivovaným dokumentům',
-        '• Kompletní auditní stopa procesu'
+        '• Uložení podepsané zápisnice do Obelisk Trusted Archive.',
+        '• Dlouhodobá archivace s právní platností.',
+        '• Přístup k archivovaným dokumentům.',
+        '• Kompletní auditní stopa procesu.'
       ]
     }
   ]
@@ -190,7 +190,7 @@ export const contractApprovalProcess: ProcessDiagram = {
       next: ['step2-homepage'],
       details: [
         '• Systém rozhodne podle výše Ročního nákladu, zda je nutné finanční předschválení.',
-        '• Pokud ano, Systém automaticky obsadí roli finanční předschvalovatel na základě limitů hodnoty Roční náklad."'
+        '• Pokud ano, Systém automaticky obsadí roli finanční předschvalovatel na základě limitů hodnoty Roční náklad.'
        
       ]
     },
