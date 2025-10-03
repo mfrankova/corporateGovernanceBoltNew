@@ -13,10 +13,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok2-autorizace'],
       details: [
-        'Zadání názvu tématu',
-        'Stručný popis problematiky',
-        'Přiložení potřebných podkladů',
-        'Výběr příslušné správní rady'
+        '• Zadání názvu tématu',
+        '• Stručný popis problematiky',
+        '• Přiložení potřebných podkladů',
+        '• Výběr příslušné správní rady'
       ]
     },
     {
@@ -43,10 +43,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok4-hlasovani'],
       details: [
-        'Rozlišení hlasování podle společnosti',
-        'Automatické doplnění potřebných schvalovatelů',
-        'Nastavení parametrů hlasování',
-        'Spuštění hlasovacího procesu'
+        '• Rozlišení hlasování podle společnosti',
+        '• Automatické doplnění potřebných schvalovatelů',
+        '• Nastavení parametrů hlasování',
+        '• Spuštění hlasovacího procesu'
       ]
     },
     {
@@ -79,11 +79,11 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok3-vyvolani'],
       details: [
-        'Notifikace řešiteli o žádosti o doplnění informací',
-        'Povinnost řešitele doplnit potřebné informace',
-        'Po doplnění se hlasování vynuluje',
-        'Proces hlasování se spustí od znovu',
-        'Všichni hlasovatelé musí hlasovat znovu (i ti, kteří již hlasovali)'
+        '• Notifikace řešiteli o žádosti o doplnění informací',
+        '• Povinnost řešitele doplnit potřebné informace',
+        '• Po doplnění se hlasování vynuluje',
+        '• Proces hlasování se spustí od znovu',
+        '• Všichni hlasovatelé musí hlasovat znovu (i ti, kteří již hlasovali)'
       ]
     },
     {
@@ -94,10 +94,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok7-pdf'],
       details: [
-        'Automatické vyhodnocení po odevzdání všech hlasů',
-        'Výpočet výsledků podle vah hlasů',
-        'Kontrola kvóra (70%, výjimky 55%/87%)',
-        'Určení výsledku: SCHVÁLENO/NESCHVÁLENO'
+        '• Automatické vyhodnocení po odevzdání všech hlasů',
+        '• Výpočet výsledků podle vah hlasů',
+        '• Kontrola kvóra (70%, výjimky 55%/87%)',
+        '• Určení výsledku: SCHVÁLENO/NESCHVÁLENO'
       ]
     },
     {
@@ -124,10 +124,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok9-schvaleni'],
       details: [
-        'Vytvoření zápisnice z průběhu zasedání SR',
-        'Vložení výsledků hlasování z období od poslední SR do aktuální SR',
-        'Konkrétní výsledky jednotlivých témat',
-        'Po vytvoření jde zápisnice na schválení všem členům správní rady'
+        '• Vytvoření zápisnice z průběhu zasedání SR',
+        '• Vložení výsledků hlasování z období od poslední SR do aktuální SR',
+        '• Konkrétní výsledky jednotlivých témat',
+        '• Po vytvoření jde zápisnice na schválení všem členům správní rady'
       ]
     },
     {
@@ -138,10 +138,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'task',
       next: ['krok10-podpis'],
       details: [
-        'Schválení znění zápisnice všemi členy správní rady',
-        'Nerozlišuje se váha jednotlivých hlasů',
-        'Podmínkou je schválení všech členů SR',
-        'Jednomyslné schválení zápisnice'
+        '• Schválení znění zápisnice všemi členy správní rady',
+        '• Nerozlišuje se váha jednotlivých hlasů',
+        '• Podmínkou je schválení všech členů SR',
+        '• Jednomyslné schválení zápisnice'
       ]
     },
     {
@@ -167,10 +167,10 @@ export const electronicVotingProcess: ProcessDiagram = {
       type: 'end_event',
       next: [],
       details: [
-        'Uložení podepsané zápisnice do Obelisk Trusted Archive',
-        'Dlouhodobá archivace s právní platností',
-        'Přístup k archivovaným dokumentům',
-        'Kompletní auditní stopa procesu'
+        '• Uložení podepsané zápisnice do Obelisk Trusted Archive',
+        '• Dlouhodobá archivace s právní platností',
+        '• Přístup k archivovaným dokumentům',
+        '• Kompletní auditní stopa procesu'
       ]
     }
   ]
