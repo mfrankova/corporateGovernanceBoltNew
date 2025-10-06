@@ -59,7 +59,7 @@ export const TechnicalSpecs: React.FC = () => {
                     <td className="text-right py-2">9.990 hlasů</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-2">P. Reš</td>
+                    <td className="py-2">P. Res</td>
                     <td className="text-right py-2">12 %</td>
                     <td className="text-right py-2">18.000 hlasů</td>
                   </tr>
