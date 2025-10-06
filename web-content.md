@@ -468,7 +468,7 @@ Existují následující (4) správní rady:
 | P. Zálešák | 20 % | 30.000 hlasů |
 | J. Tomáš | 13,34 % | 20.010 hlasů |
 | K. Čejka | 6,66 % | 9.990 hlasů |
-| P. Reš | 12 % | 18.000 hlasů |
+| P. Res | 12 % | 18.000 hlasů |
 | L. Kleinová | 34 % | 51.000 hlasů |
 | **Celkem:** | **100 %** | **150.000 hlasů** |
 
